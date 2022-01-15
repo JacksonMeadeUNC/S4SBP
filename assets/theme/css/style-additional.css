@@ -1178,7 +1178,7 @@ section.lazy-placeholder:after {
   display: inherit;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../../images/crappy-profile.png');
+  background-image: url('../../images/profile1.png');
   width: 50%;
   position: absolute;
   right: 0;
@@ -1188,7 +1188,7 @@ section.lazy-placeholder:after {
 }
 
 .engagement-1 {
-  margin-top: -18%;
+  margin-top: -10rem;
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: transparent;
@@ -1216,7 +1216,7 @@ section.lazy-placeholder:after {
   background: rgba(255,255,255,0);
   
   clip-path: circle();
-  background-image: url('../../images/crappy-profile.png');
+  background-image: url('../../images/profile1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
