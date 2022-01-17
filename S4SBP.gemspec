@@ -1,19 +1,24 @@
 # frozen_string_literal: true
 
-Gem::Specification.new do |spec|
-    spec.name          = "S4SBP"
-    spec.version       = "0.1.0"
-    spec.authors       = ["Jackson Meade"]
-    spec.email         = ["samrobinson4sbp@gmail.com"]
-  
-    spec.summary       = "This is a custom Jekyll format inspired by the Kamala Harris for President and UNC Web Standard layouts for the Sam Robinson for SBP Campaign Website."
-  
-    spec.license       = "MIT"
-  
-    spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
-  
-    spec.add_runtime_dependency "jekyll", "~> 3.8"
-  
-    spec.add_development_dependency "bundler", "~> 1.16"
-    spec.add_development_dependency "rake", "~> 12.0"
+Gem::Specification.new do |s|
+  s.name          = "S4SBP"
+  s.version       = "0.1.0"
+  s.license       = "MIT"
+  s.authors       = ["Jackson Meade"]
+  s.email         = ["robinson4sbp@gmail.com"]
+  s.homepage      = "jacksonmeade.github.io"
+  s.summary       = "This is a custom Jekyll format inspired by the Kamala Harris for President and UNC Web Standard layouts for the Sam Robinson for SBP Campaign Website."
+
+  s.files         = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
+
+  s.required_ruby_version = ">= 2.4.0"
+
+  s.platform = Gem::Platform::RUBY
+  s.add_runtime_dependency "jekyll", "> 3.5", "< 5.0"
+  s.add_runtime_dependency "jekyll-seo-tag", "~> 2.0"
+  s.add_development_dependency "html-proofer", "~> 3.0"
+  s.add_development_dependency "rubocop-github", "~> 0.16"
+  s.add_development_dependency "w3c_validators", "~> 1.3"
+end

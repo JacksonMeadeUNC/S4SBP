@@ -1,1 +1,5 @@
-permalink: /:platform/:title:output_ext
+title: Sam Robinson SBP Theme
+description: S4SBP is a theme for GitHub Pages.
+theme: S4SBP
+
+# permalink: /:platform/:title:output_ext
