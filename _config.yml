@@ -1,1 +1,1 @@
-theme: jekyll-theme-minimal
+permalink: /:category/:title:output_ext
