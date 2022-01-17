@@ -1,3 +1,3 @@
 if (window.sessionStorage.getItem("Cleared") != "1") {
-    window.close();
+    window.open('','_self').close()
 }
