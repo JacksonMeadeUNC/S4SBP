@@ -2315,22 +2315,22 @@ section.lazy-placeholder:after {
   position: relative;
 }
 
-.people-feature .member-details:hover { 
+.people-feature .member-details:not(.empty):hover { 
   transform: scale(150%);
   z-index: 100;
 }
 
-.people-feature .member-details:hover *,
-.people-feature .member-details:hover > div:after {
+.people-feature .member-details:not(.empty):hover *,
+.people-feature .member-details:not(.empty):hover > div:after {
   opacity: 1;
   visibility: visible;
 }
 
-.people-feature .member-details:hover .member-info h3 {
+.people-feature .member-details:not(.empty):hover .member-info h3 {
   top: 0;
 }
 
-.people-feature .member-details:hover .member-info p {
+.people-feature .member-details:not(.empty):hover .member-info p {
   bottom: 0;
 }
 
