@@ -5,7 +5,7 @@ jQuery(function(a) {
         }));
         var d = a(this).scrollTop();
         a(c.BASE).each(function() {
-            a(this).is(c.FIXED_TOP) && (a(this).is(c.TRANSPARENT) && !a(this).hasClass(b.OPENED) && (0 < d ? a(this).removeClass(b.BG_COLOR) : a(this).addClass(b.BG_COLOR)),
+            a(this).is(c.FIXED_TOP) && !a(this).hasClass('no-expand') && (a(this).is(c.TRANSPARENT) && !a(this).hasClass(b.OPENED) && (0 < d ? a(this).removeClass(b.BG_COLOR) : a(this).addClass(b.BG_COLOR)),
                 0 < d ? a(this).addClass(b.SHORT) : a(this).removeClass(b.SHORT))
         })
     }

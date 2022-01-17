@@ -610,6 +610,7 @@ section.lazy-placeholder:after {
   z-index: 1000;
   width: 100%;
 }
+
 .nav-container nav.navbar {
   position: fixed;
 }
@@ -661,6 +662,7 @@ section.lazy-placeholder:after {
   display: -webkit-flex;
   -webkit-align-items: center;
   position: absolute;
+  mix-blend-mode: difference;
 }
 @media (min-width: 992px) {
   .nav-container .navbar {
@@ -799,6 +801,7 @@ section.lazy-placeholder:after {
   color: #001169 !important;
   backdrop-filter: blur(5px);
 }
+
 
 
 
@@ -1177,18 +1180,161 @@ section.lazy-placeholder:after {
 #profile-foto {
   display: inherit;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-image: url('../../images/profile1.png');
   width: 50%;
   position: absolute;
   right: 0;
-  top:-100%;
-  height: 100%;
+  top:-78%;
+  height: 80%;
 }
 }
 
+
+.cid-sUy1VKIOff {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.cid-sUy1VKIOff .image__block:before {
+  content: "";
+  position: absolute;
+  top: -85px;
+  left: 205px;
+  width: 100vw;
+  height: calc(100% + 170px);
+  background-color: #bfdaf6;
+}
+.cid-sUy1VKIOff .date__block {
+  margin-top: 88px;
+  margin-bottom: 16px;
+}
+.cid-sUy1VKIOff .date__article {
+  display: inline-block;
+  margin: 0;
+  padding: 0 7.5px;
+  color: #b1a374;
+}
+.cid-sUy1VKIOff .dot {
+  display: inline-block;
+  vertical-align: super;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #90bff0;
+}
+.cid-sUy1VKIOff .date__d {
+  display: inline-block;
+  margin: 0;
+  padding: 0 7.5px;
+  color: #90bff0;
+}
+.cid-sUy1VKIOff .mbr-section-title {
+  margin-bottom: 28px;
+}
+.cid-sUy1VKIOff .mbr-text {
+  margin-bottom: 23px;
+}
+.cid-sUy1VKIOff .link {
+  display: block;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+.cid-sUy1VKIOff .link a {
+  font-weight: 700;
+}
+.cid-sUy1VKIOff .link span {
+  display: inline-block !important;
+  transition: all 0.3s ease;
+  margin-left: 13px;
+}
+.cid-sUy1VKIOff .link:hover span {
+  transform: translateX(9px);
+}
+.cid-sUy1VKIOff .image__block {
+  position: relative;
+}
+.cid-sUy1VKIOff .image {
+  width: 100%;
+  height: 575px;
+  position: relative;
+}
+.cid-sUy1VKIOff .image:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #90bff0;
+  z-index: 1;
+}
+.cid-sUy1VKIOff .image img {
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  top: 60px;
+  left: 50%;
+  z-index: 5;
+  transform: translatex(-50%);
+  border-radius: 50%;
+  max-height: 575px;
+  object-fit: cover;
+  border: 4px solid #001169;
+}
+@media (max-width: 991px) {
+  .cid-sUy1VKIOff .date__block {
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+  .cid-sUy1VKIOff .mbr-section-title {
+    margin-bottom: 15px;
+  }
+  .cid-sUy1VKIOff .mbr-text {
+    margin-bottom: 12px;
+  }
+  .cid-sUy1VKIOff .image__block {
+    margin-top: 60px;
+  }
+  .cid-sUy1VKIOff .image__block:before {
+    top: -50px;
+    left: 70px;
+    height: calc(100% + 150px);
+  }
+}
+@media (max-width: 767px) {
+  .cid-sUy1VKIOff .image {
+    height: 460px;
+  }
+  .cid-sUy1VKIOff .image img {
+    top: 45px;
+    width: 60%;
+  }
+}
+@media (max-width: 575px) {
+  .cid-sUy1VKIOff .image {
+    height: 420px;
+  }
+  .cid-sUy1VKIOff .image img {
+    top: 40px;
+    width: 60%;
+  }
+}
+@media (max-width: 380px) {
+  .cid-sUy1VKIOff .image {
+    height: 300px;
+  }
+  .cid-sUy1VKIOff .image img {
+    top: 30px;
+    width: 60%;
+  }
+}
+
+
+
 .engagement-1 {
-  margin-top: -10rem;
+  margin-top: -18%;
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: transparent;
@@ -1226,11 +1372,17 @@ section.lazy-placeholder:after {
   }
 }
 
+.engagement-1 {  
+  z-index: 8; 
+  pointer-events: none;
+}
+
 .engagement-1 .text-wrapper {
   width: 60%;
   background: #90bff0;
   padding: 90px 1rem;
-  height: 75vh;
+  min-height: 75vh;
+  pointer-events: all;
 }
 @media (min-width: 1550px) {
   .engagement-1 .text-wrapper {
@@ -1286,7 +1438,7 @@ section.lazy-placeholder:after {
   width: 60%;
   background: white;
   padding: 90px 1rem;
-
+  pointer-events: all;
 }
 @media (min-width: 1550px) {
   .engagement-1 .text-wrapper-2 {
@@ -1721,6 +1873,12 @@ section.lazy-placeholder:after {
   padding-bottom: 0px;
   background-color: #efeeee;
 }
+@media (min-width: 987px) {
+  .about-1 {
+    margin-top: -7%;
+  }
+}
+
 .about-1 img {
   width: 100%;
   height: 100%;
