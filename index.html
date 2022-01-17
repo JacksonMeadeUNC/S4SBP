@@ -6174,6 +6174,7 @@
             return;
         }
 
+        window.sessionStorage.setItem('Cleared',"1");
         var plainHTML = decrypt(encryptedHTML, passphrase);
 
         document.write(plainHTML);
