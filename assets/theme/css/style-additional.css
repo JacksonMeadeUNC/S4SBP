@@ -2224,6 +2224,7 @@ section.lazy-placeholder:after {
 /*  Team Starts */
 .people-feature .team-members {
   transform: rotate(-45deg);
+  list-style-type: none;
 }
 .people-feature .team-members li > div {
   float: left;
