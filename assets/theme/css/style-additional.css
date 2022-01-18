@@ -2360,3 +2360,12 @@ scale: 1.1;
 .people-feature {
   padding-top: 20vh;
 }
+
+.background-fill {
+  position: absolute;
+  top: 15%;
+  width: 80%;
+  right: 0;
+  height: 60%;
+  background: #eee;
+}
