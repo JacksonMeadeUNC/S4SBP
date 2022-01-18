@@ -1676,7 +1676,7 @@ section.lazy-placeholder:after {
   z-index: 3;
 }
 .about-3 .block2 {
-  background-image: url("../../../assets/images/style-1920x1440.jpeg");
+  background-image: url("../../../assets/images/style-1920x1440.jpg");
 }
 .about-3 .block2:hover .block2-over {
   opacity: 0;
