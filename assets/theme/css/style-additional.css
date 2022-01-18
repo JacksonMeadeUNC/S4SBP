@@ -2354,7 +2354,7 @@ scale: 1.1;
 
   .item.explainer {
     display: inherit;
-    grid-column: auto / span 4;
+    grid-column: span 4;
     grid-row: auto / span 1;
     background: transparent;
     border-bottom: 1px solid #c1c1c1;
