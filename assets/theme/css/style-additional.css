@@ -2363,20 +2363,31 @@ scale: 1.1;
   
 }
 
+
 .background-fill {
-  position: absolute;
-  top: 15%;
-  width: 80%;
-  right: 0;
-  height: 60%;
-  background: #eee;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-image: none;
-    background-size: auto;
-  background-image: url(../../../assets/images/profile2.png);
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-position: right bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #eee;
+}
+
+
+@media(min-width: 767px) {
+  .background-fill {
+    top: 15%;
+    width: 80%;
+    right: 0;
+    height: 60%;
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-repeat: repeat;
+      background-image: none;
+      background-size: auto;
+    background-image: url(../../../assets/images/profile2.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
 }
