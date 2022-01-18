@@ -2443,6 +2443,6 @@ section.lazy-placeholder:after {
   color: #344759;
   text-decoration: underline;
 } 
-.people-feature .member-details img.empty {
+.people-feature .member-details.empty img {
   transform: rotate(45deg) translate(0, 15px) scale(2);
 }
