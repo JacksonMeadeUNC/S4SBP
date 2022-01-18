@@ -2363,7 +2363,7 @@ scale: 1.1;
   
 }
 
-
+@media(max-width: 767px) {
 .background-fill {
     position: absolute;
     top: 0;
@@ -2372,10 +2372,12 @@ scale: 1.1;
     bottom: 0;
     background: #eee;
 }
-
+}
 
 @media(min-width: 767px) {
   .background-fill {
+    position: absolute;
+    background: #eee;
     top: 15%;
     width: 80%;
     right: 0;
