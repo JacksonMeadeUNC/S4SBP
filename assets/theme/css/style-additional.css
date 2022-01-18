@@ -2285,7 +2285,6 @@ scale: 1.1;
 
 .grid > div::before {
   content: "";
-  padding-bottom: 100%;
   display: block;
 }
 
@@ -2321,8 +2320,8 @@ scale: 1.1;
 }
 
 @media(min-width: 767px) {
-  .item > img {
-    
+  .grid > div::before {
+    padding-bottom: 100%;
   }
 .item:not(.empty):not(.spacer):not(.explainer):hover > img, .item:not(.empty):not(.explainer):not(.spacer):focus > img {
   filter: none;
