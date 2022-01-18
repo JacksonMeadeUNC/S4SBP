@@ -1,12 +1,11 @@
 var i = false;
 var c = document.getElementById("countdown2-2");
-window.sessionStorage.setItem('petitioned', window.sessionStorage.getItem('petitioned') + 1);
 
 function cd() {
     c.classList.remove(i ? "open" : "closed");
     c.classList.add(i ? "closed" : "open");
     i = !i;
-    window.sessionStorage.setItem('petitioned', 1);
+    window.sessionStorage.setItem('petitioned', "1");
 }
 
 
@@ -20,5 +19,5 @@ function getScrollPercent() {
 
 
 document.addEventListener('scroll', e => {
-    if (getScrollPercent() > 0.6 && !i && !(window.sessionStorage.getItem('petitioned') < 2)) cd();
+    if (getScrollPercent() > 0.6 && !i && !(window.sessionStorage.getItem('petitioned') != "1")) cd();
 });
