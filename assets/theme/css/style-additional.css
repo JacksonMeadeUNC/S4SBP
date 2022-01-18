@@ -2345,6 +2345,7 @@ scale: 1.1;
 
 
 @media(max-width: 767px) {
+  
   .item > img {
     transform: rotate(0deg) translate(0, 15px) scale(1.2);
 
@@ -2355,6 +2356,8 @@ scale: 1.1;
     grid-column: auto / span 4;
     grid-row: auto / span 1;
     background: transparent;
+    border-top: 1px solid #767676;
+    border-bottom: 1px solid #767676;
   }
 
   .item.empty, .item.spacer {
@@ -2363,7 +2366,7 @@ scale: 1.1;
 }
 .people-feature {
   padding-top: 20vh;
-  background: white
+  background: white;
   padding-bottom: 10vh;
 }
 
