@@ -2362,7 +2362,7 @@ scale: 1.1;
 .people-feature {
   padding-top: 20vh;
   background: white
-  
+  padding-bottom: 10vh;
 }
 
 @media(max-width: 767px) {
