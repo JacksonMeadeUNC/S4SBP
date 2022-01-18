@@ -2446,3 +2446,25 @@ section.lazy-placeholder:after {
 .people-feature .member-details.empty img {
   transform: rotate(45deg) translate(0, 15px) scale(2);
 }
+
+.argyle-1 {
+  border: 1px dashed;
+position: absolute !important;
+top: calc(0% - 5px);
+bottom: calc(50% - 5px);
+lefT: calc(0% - 5px);
+right: calc(50% - 5px);
+z-index: 2;
+background: transparent !important;
+}
+
+.argyle-2 {
+  border: 1px dashed;
+position: absolute !important;
+top: calc(50% - 5px);
+bottom: calc(0% - 5px);
+lefT: calc(50% - 5px);
+right: calc(0% - 5px);
+z-index: 2;
+background: transparent !important;
+}
