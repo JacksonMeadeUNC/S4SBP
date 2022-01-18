@@ -2234,6 +2234,7 @@ scale: 1.1;
 
 .grid {
   display: grid;
+  height: 100vh;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows:  repeat(4, 20%);
   grid-gap: 0.5em 0.5em;
