@@ -2217,7 +2217,6 @@ scale: 1.1;
   display: grid;
   height: 100%;
   grid-template-columns: repeat(5, 9vh);
-  grid-template-rows:  repeat(4, 9vh);
   grid-gap: 0.5em 0.5em;
   grid-auto-flow: row dense;
 }
@@ -2231,6 +2230,7 @@ scale: 1.1;
     justify-content: center;
   }
   .grid {
+    grid-template-rows:  repeat(4, 9vh);
     transform: rotate(-45deg) translateX(25%);
   }
   .item > img {
