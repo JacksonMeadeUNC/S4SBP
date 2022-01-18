@@ -19,6 +19,7 @@ Array.prototype.filter.call(people, person => {
             content.innerHTML = "Hover over a profile to learn about us!";
             content2.innerHTML = "";
         });
+        console.log(person.nextSibling);
         person.nextSibling.innerHTML = `						<div class="container">
         <h4 class="card_subtitle style-medium mb-2 style-fonts-style display-4">${person.getAttribute("title-for")}</h4>
       <h3 class="style-section-subtitle style-fonts-style display-2" style="text-transform: uppercase;">${person.getAttribute("name-for")}</h3>
