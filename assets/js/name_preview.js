@@ -20,15 +20,6 @@ Array.prototype.filter.call(people, person => {
             content2.innerHTML = "";
         });
         console.log(person.nextSibling);
-        person.nextSibling.innerHTML = `						<div class="container">
-        <h4 class="card_subtitle style-medium mb-2 style-fonts-style display-4">${person.getAttribute("title-for")}</h4>
-      <h3 class="style-section-subtitle style-fonts-style display-2" style="text-transform: uppercase;">${person.getAttribute("name-for")}</h3>
-      <p class="style-text style-fonts-style display-4">
-      ${person.getAttribute("content-for")}
-    </p>
-    <p class="style-text style-fonts-style display-4">
-      <span id="personal-interests" style="opacity:  0.8">${person.getAttribute("secondary-content-for")}</span>
-  </p>
-          </div>`;
+        person.nextElementSibling.innerHTML = `<div class="container"><h4 class="card_subtitle style-medium mb-2 style-fonts-style display-4">${person.getAttribute("title-for")}</h4><h3 class="style-section-subtitle style-fonts-style display-2" style="text-transform: uppercase;">${person.getAttribute("name-for")}</h3><p class="style-text style-fonts-style display-4">${person.getAttribute("content-for")}</p><p class="style-text style-fonts-style display-4"><span id="personal-interests" style="opacity:  0.8">${person.getAttribute("secondary-content-for")}</span></p></div>`;
     };
 });
