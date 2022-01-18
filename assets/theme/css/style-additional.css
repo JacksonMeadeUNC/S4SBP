@@ -2246,7 +2246,7 @@ scale: 1.1;
 
 @media(min-width: 767px) {
   .grid {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateX(25%);
   }
   .item > img {
     transform: rotate(45deg) translate(0, 15px) scale(1.5);
@@ -2356,4 +2356,7 @@ scale: 1.1;
   .item.empty, .item.spacer {
     display: none;
   }
+}
+.people-feature {
+  padding-top: 20vh;
 }
