@@ -2356,8 +2356,7 @@ scale: 1.1;
     grid-column: auto / span 4;
     grid-row: auto / span 1;
     background: transparent;
-    border-top: 1px solid #767676;
-    border-bottom: 1px solid #767676;
+    border-bottom: 1px solid #c1c1c1;
   }
 
   .item.empty, .item.spacer {
