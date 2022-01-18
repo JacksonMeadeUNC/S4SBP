@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-[class^="mobi-"], [class*=" mobi-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'glyph2' !important;
   speak: none;
@@ -25,474 +25,474 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mobi-stylei-add-submenu:before {
+.icon-stylei-add-submenu:before {
   content: "\e900";
 }
-.mobi-stylei-alert:before {
+.icon-stylei-alert:before {
   content: "\e901";
 }
-.mobi-stylei-align-center:before {
+.icon-stylei-align-center:before {
   content: "\e902";
 }
-.mobi-stylei-align-justify:before {
+.icon-stylei-align-justify:before {
   content: "\e903";
 }
-.mobi-stylei-align-left:before {
+.icon-stylei-align-left:before {
   content: "\e904";
 }
-.mobi-stylei-align-right:before {
+.icon-stylei-align-right:before {
   content: "\e905";
 }
-.mobi-stylei-android:before {
+.icon-stylei-android:before {
   content: "\e906";
 }
-.mobi-stylei-apple:before {
+.icon-stylei-apple:before {
   content: "\e907";
 }
-.mobi-stylei-arrow-down:before {
+.icon-stylei-arrow-down:before {
   content: "\e908";
 }
-.mobi-stylei-arrow-next:before {
+.icon-stylei-arrow-next:before {
   content: "\e909";
 }
-.mobi-stylei-arrow-prev:before {
+.icon-stylei-arrow-prev:before {
   content: "\e90a";
 }
-.mobi-stylei-arrow-up:before {
+.icon-stylei-arrow-up:before {
   content: "\e90b";
 }
-.mobi-stylei-bold:before {
+.icon-stylei-bold:before {
   content: "\e90c";
 }
-.mobi-stylei-bookmark:before {
+.icon-stylei-bookmark:before {
   content: "\e90d";
 }
-.mobi-stylei-bootstrap:before {
+.icon-stylei-bootstrap:before {
   content: "\e90e";
 }
-.mobi-stylei-briefcase:before {
+.icon-stylei-briefcase:before {
   content: "\e90f";
 }
-.mobi-stylei-browse:before {
+.icon-stylei-browse:before {
   content: "\e910";
 }
-.mobi-stylei-bulleted-list:before {
+.icon-stylei-bulleted-list:before {
   content: "\e911";
 }
-.mobi-stylei-calendar:before {
+.icon-stylei-calendar:before {
   content: "\e912";
 }
-.mobi-stylei-camera:before {
+.icon-stylei-camera:before {
   content: "\e913";
 }
-.mobi-stylei-cart-add:before {
+.icon-stylei-cart-add:before {
   content: "\e914";
 }
-.mobi-stylei-cart-full:before {
+.icon-stylei-cart-full:before {
   content: "\e915";
 }
-.mobi-stylei-cash:before {
+.icon-stylei-cash:before {
   content: "\e916";
 }
-.mobi-stylei-change-style:before {
+.icon-stylei-change-style:before {
   content: "\e917";
 }
-.mobi-stylei-chat:before {
+.icon-stylei-chat:before {
   content: "\e918";
 }
-.mobi-stylei-clock:before {
+.icon-stylei-clock:before {
   content: "\e919";
 }
-.mobi-stylei-close:before {
+.icon-stylei-close:before {
   content: "\e91a";
 }
-.mobi-stylei-cloud:before {
+.icon-stylei-cloud:before {
   content: "\e91b";
 }
-.mobi-stylei-code:before {
+.icon-stylei-code:before {
   content: "\e91c";
 }
-.mobi-stylei-contact-form:before {
+.icon-stylei-contact-form:before {
   content: "\e91d";
 }
-.mobi-stylei-credit-card:before {
+.icon-stylei-credit-card:before {
   content: "\e91e";
 }
-.mobi-stylei-cursor-click:before {
+.icon-stylei-cursor-click:before {
   content: "\e91f";
 }
-.mobi-stylei-cust-feedback:before {
+.icon-stylei-cust-feedback:before {
   content: "\e920";
 }
-.mobi-stylei-database:before {
+.icon-stylei-database:before {
   content: "\e921";
 }
-.mobi-stylei-delivery:before {
+.icon-stylei-delivery:before {
   content: "\e922";
 }
-.mobi-stylei-desktop:before {
+.icon-stylei-desktop:before {
   content: "\e923";
 }
-.mobi-stylei-devices:before {
+.icon-stylei-devices:before {
   content: "\e924";
 }
-.mobi-stylei-down:before {
+.icon-stylei-down:before {
   content: "\e925";
 }
-.mobi-stylei-download-2:before {
+.icon-stylei-download-2:before {
   content: "\e926";
 }
-.mobi-stylei-download:before {
+.icon-stylei-download:before {
   content: "\e927";
 }
-.mobi-stylei-drag-n-drop-2:before {
+.icon-stylei-drag-n-drop-2:before {
   content: "\e928";
 }
-.mobi-stylei-drag-n-drop:before {
+.icon-stylei-drag-n-drop:before {
   content: "\e929";
 }
-.mobi-stylei-edit-2:before {
+.icon-stylei-edit-2:before {
   content: "\e92a";
 }
-.mobi-stylei-edit:before {
+.icon-stylei-edit:before {
   content: "\e92b";
 }
-.mobi-stylei-error:before {
+.icon-stylei-error:before {
   content: "\e92c";
 }
-.mobi-stylei-extension:before {
+.icon-stylei-extension:before {
   content: "\e92d";
 }
-.mobi-stylei-features:before {
+.icon-stylei-features:before {
   content: "\e92e";
 }
-.mobi-stylei-file:before {
+.icon-stylei-file:before {
   content: "\e92f";
 }
-.mobi-stylei-flag:before {
+.icon-stylei-flag:before {
   content: "\e930";
 }
-.mobi-stylei-folder:before {
+.icon-stylei-folder:before {
   content: "\e931";
 }
-.mobi-stylei-gift:before {
+.icon-stylei-gift:before {
   content: "\e932";
 }
-.mobi-stylei-github:before {
+.icon-stylei-github:before {
   content: "\e933";
 }
-.mobi-stylei-globe-2:before {
+.icon-stylei-globe-2:before {
   content: "\e934";
 }
-.mobi-stylei-globe:before {
+.icon-stylei-globe:before {
   content: "\e935";
 }
-.mobi-stylei-growing-chart:before {
+.icon-stylei-growing-chart:before {
   content: "\e936";
 }
-.mobi-stylei-hearth:before {
+.icon-stylei-hearth:before {
   content: "\e937";
 }
-.mobi-stylei-help:before {
+.icon-stylei-help:before {
   content: "\e938";
 }
-.mobi-stylei-home:before {
+.icon-stylei-home:before {
   content: "\e939";
 }
-.mobi-stylei-hot-cup:before {
+.icon-stylei-hot-cup:before {
   content: "\e93a";
 }
-.mobi-stylei-idea:before {
+.icon-stylei-idea:before {
   content: "\e93b";
 }
-.mobi-stylei-image-gallery:before {
+.icon-stylei-image-gallery:before {
   content: "\e93c";
 }
-.mobi-stylei-image-slider:before {
+.icon-stylei-image-slider:before {
   content: "\e93d";
 }
-.mobi-stylei-info:before {
+.icon-stylei-info:before {
   content: "\e93e";
 }
-.mobi-stylei-italic:before {
+.icon-stylei-italic:before {
   content: "\e93f";
 }
-.mobi-stylei-key:before {
+.icon-stylei-key:before {
   content: "\e940";
 }
-.mobi-stylei-laptop:before {
+.icon-stylei-laptop:before {
   content: "\e941";
 }
-.mobi-stylei-layers:before {
+.icon-stylei-layers:before {
   content: "\e942";
 }
-.mobi-stylei-left-right:before {
+.icon-stylei-left-right:before {
   content: "\e943";
 }
-.mobi-stylei-left:before {
+.icon-stylei-left:before {
   content: "\e944";
 }
-.mobi-stylei-letter:before {
+.icon-stylei-letter:before {
   content: "\e945";
 }
-.mobi-stylei-like:before {
+.icon-stylei-like:before {
   content: "\e946";
 }
-.mobi-stylei-link:before {
+.icon-stylei-link:before {
   content: "\e947";
 }
-.mobi-stylei-lock:before {
+.icon-stylei-lock:before {
   content: "\e948";
 }
-.mobi-stylei-login:before {
+.icon-stylei-login:before {
   content: "\e949";
 }
-.mobi-stylei-logout:before {
+.icon-stylei-logout:before {
   content: "\e94a";
 }
-.mobi-stylei-magic-stick:before {
+.icon-stylei-magic-stick:before {
   content: "\e94b";
 }
-.mobi-stylei-map-pin:before {
+.icon-stylei-map-pin:before {
   content: "\e94c";
 }
-.mobi-stylei-menu:before {
+.icon-stylei-menu:before {
   content: "\e94d";
 }
-.mobi-stylei-mobile-2:before {
+.icon-stylei-mobile-2:before {
   content: "\e94e";
 }
-.mobi-stylei-mobile-horizontal:before {
+.icon-stylei-mobile-horizontal:before {
   content: "\e94f";
 }
-.mobi-stylei-mobile:before {
+.icon-stylei-mobile:before {
   content: "\e950";
 }
-.mobi-stylei-glyph:before {
+.icon-stylei-glyph:before {
   content: "\e951";
 }
-.mobi-stylei-more-horizontal:before {
+.icon-stylei-more-horizontal:before {
   content: "\e952";
 }
-.mobi-stylei-more-vertical:before {
+.icon-stylei-more-vertical:before {
   content: "\e953";
 }
-.mobi-stylei-music:before {
+.icon-stylei-music:before {
   content: "\e954";
 }
-.mobi-stylei-new-file:before {
+.icon-stylei-new-file:before {
   content: "\e955";
 }
-.mobi-stylei-numbered-list:before {
+.icon-stylei-numbered-list:before {
   content: "\e956";
 }
-.mobi-stylei-opened-folder:before {
+.icon-stylei-opened-folder:before {
   content: "\e957";
 }
-.mobi-stylei-pages:before {
+.icon-stylei-pages:before {
   content: "\e958";
 }
-.mobi-stylei-paper-plane:before {
+.icon-stylei-paper-plane:before {
   content: "\e959";
 }
-.mobi-stylei-paperclip:before {
+.icon-stylei-paperclip:before {
   content: "\e95a";
 }
-.mobi-stylei-phone:before {
+.icon-stylei-phone:before {
   content: "\e95b";
 }
-.mobi-stylei-photo:before {
+.icon-stylei-photo:before {
   content: "\e95c";
 }
-.mobi-stylei-photos:before {
+.icon-stylei-photos:before {
   content: "\e95d";
 }
-.mobi-stylei-pin:before {
+.icon-stylei-pin:before {
   content: "\e95e";
 }
-.mobi-stylei-play:before {
+.icon-stylei-play:before {
   content: "\e95f";
 }
-.mobi-stylei-plus:before {
+.icon-stylei-plus:before {
   content: "\e960";
 }
-.mobi-stylei-preview:before {
+.icon-stylei-preview:before {
   content: "\e961";
 }
-.mobi-stylei-print:before {
+.icon-stylei-print:before {
   content: "\e962";
 }
-.mobi-stylei-protect:before {
+.icon-stylei-protect:before {
   content: "\e963";
 }
-.mobi-stylei-question:before {
+.icon-stylei-question:before {
   content: "\e964";
 }
-.mobi-stylei-quote-left:before {
+.icon-stylei-quote-left:before {
   content: "\e965";
 }
-.mobi-stylei-quote-right:before {
+.icon-stylei-quote-right:before {
   content: "\e966";
 }
-.mobi-stylei-redo:before {
+.icon-stylei-redo:before {
   content: "\e967";
 }
-.mobi-stylei-refresh:before {
+.icon-stylei-refresh:before {
   content: "\e968";
 }
-.mobi-stylei-responsive-2:before {
+.icon-stylei-responsive-2:before {
   content: "\e969";
 }
-.mobi-stylei-responsive:before {
+.icon-stylei-responsive:before {
   content: "\e96a";
 }
-.mobi-stylei-right:before {
+.icon-stylei-right:before {
   content: "\e96b";
 }
-.mobi-stylei-rocket:before {
+.icon-stylei-rocket:before {
   content: "\e96c";
 }
-.mobi-stylei-sad-face:before {
+.icon-stylei-sad-face:before {
   content: "\e96d";
 }
-.mobi-stylei-sale:before {
+.icon-stylei-sale:before {
   content: "\e96e";
 }
-.mobi-stylei-save:before {
+.icon-stylei-save:before {
   content: "\e96f";
 }
-.mobi-stylei-search:before {
+.icon-stylei-search:before {
   content: "\e970";
 }
-.mobi-stylei-setting-2:before {
+.icon-stylei-setting-2:before {
   content: "\e971";
 }
-.mobi-stylei-setting-3:before {
+.icon-stylei-setting-3:before {
   content: "\e972";
 }
-.mobi-stylei-setting:before {
+.icon-stylei-setting:before {
   content: "\e973";
 }
-.mobi-stylei-share:before {
+.icon-stylei-share:before {
   content: "\e974";
 }
-.mobi-stylei-shopping-bag:before {
+.icon-stylei-shopping-bag:before {
   content: "\e975";
 }
-.mobi-stylei-shopping-basket:before {
+.icon-stylei-shopping-basket:before {
   content: "\e976";
 }
-.mobi-stylei-shopping-cart:before {
+.icon-stylei-shopping-cart:before {
   content: "\e977";
 }
-.mobi-stylei-sites:before {
+.icon-stylei-sites:before {
   content: "\e978";
 }
-.mobi-stylei-smile-face:before {
+.icon-stylei-smile-face:before {
   content: "\e979";
 }
-.mobi-stylei-speed:before {
+.icon-stylei-speed:before {
   content: "\e97a";
 }
-.mobi-stylei-star:before {
+.icon-stylei-star:before {
   content: "\e97b";
 }
-.mobi-stylei-success:before {
+.icon-stylei-success:before {
   content: "\e97c";
 }
-.mobi-stylei-sun:before {
+.icon-stylei-sun:before {
   content: "\e97d";
 }
-.mobi-stylei-sun2:before {
+.icon-stylei-sun2:before {
   content: "\e97e";
 }
-.mobi-stylei-tablet-vertical:before {
+.icon-stylei-tablet-vertical:before {
   content: "\e97f";
 }
-.mobi-stylei-tablet:before {
+.icon-stylei-tablet:before {
   content: "\e980";
 }
-.mobi-stylei-target:before {
+.icon-stylei-target:before {
   content: "\e981";
 }
-.mobi-stylei-timer:before {
+.icon-stylei-timer:before {
   content: "\e982";
 }
-.mobi-stylei-to-ftp:before {
+.icon-stylei-to-ftp:before {
   content: "\e983";
 }
-.mobi-stylei-to-local-drive:before {
+.icon-stylei-to-local-drive:before {
   content: "\e984";
 }
-.mobi-stylei-touch-swipe:before {
+.icon-stylei-touch-swipe:before {
   content: "\e985";
 }
-.mobi-stylei-touch:before {
+.icon-stylei-touch:before {
   content: "\e986";
 }
-.mobi-stylei-trash:before {
+.icon-stylei-trash:before {
   content: "\e987";
 }
-.mobi-stylei-underline:before {
+.icon-stylei-underline:before {
   content: "\e988";
 }
-.mobi-stylei-undo:before {
+.icon-stylei-undo:before {
   content: "\e989";
 }
-.mobi-stylei-unlink:before {
+.icon-stylei-unlink:before {
   content: "\e98a";
 }
-.mobi-stylei-unlock:before {
+.icon-stylei-unlock:before {
   content: "\e98b";
 }
-.mobi-stylei-up-down:before {
+.icon-stylei-up-down:before {
   content: "\e98c";
 }
-.mobi-stylei-up:before {
+.icon-stylei-up:before {
   content: "\e98d";
 }
-.mobi-stylei-update:before {
+.icon-stylei-update:before {
   content: "\e98e";
 }
-.mobi-stylei-upload-2:before {
+.icon-stylei-upload-2:before {
   content: "\e98f";
 }
-.mobi-stylei-upload:before {
+.icon-stylei-upload:before {
   content: "\e990";
 }
-.mobi-stylei-user-2:before {
+.icon-stylei-user-2:before {
   content: "\e991";
 }
-.mobi-stylei-user:before {
+.icon-stylei-user:before {
   content: "\e992";
 }
-.mobi-stylei-users:before {
+.icon-stylei-users:before {
   content: "\e993";
 }
-.mobi-stylei-video-play:before {
+.icon-stylei-video-play:before {
   content: "\e994";
 }
-.mobi-stylei-video:before {
+.icon-stylei-video:before {
   content: "\e995";
 }
-.mobi-stylei-watch:before {
+.icon-stylei-watch:before {
   content: "\e996";
 }
-.mobi-stylei-website-theme-2:before {
+.icon-stylei-website-theme-2:before {
   content: "\e997";
 }
-.mobi-stylei-website-theme:before {
+.icon-stylei-website-theme:before {
   content: "\e998";
 }
-.mobi-stylei-wifi:before {
+.icon-stylei-wifi:before {
   content: "\e999";
 }
-.mobi-stylei-windows:before {
+.icon-stylei-windows:before {
   content: "\e99a";
 }
-.mobi-stylei-zoom-in:before {
+.icon-stylei-zoom-in:before {
   content: "\e99b";
 }
-.mobi-stylei-zoom-out:before {
+.icon-stylei-zoom-out:before {
   content: "\e99c";
 }
