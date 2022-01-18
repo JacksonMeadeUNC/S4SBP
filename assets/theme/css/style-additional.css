@@ -1421,11 +1421,6 @@ section.lazy-placeholder:after {
   padding: 90px 1rem;
   pointer-events: all;
 }
-@media (max-width: 1250px) {
-  .engagement-1 .text-wrapper-2 {
-    padding: 1em;
-  }
-}
 @media (min-width: 1550px) {
   .engagement-1 .text-wrapper-2 {
     padding-right: 8.333%;
@@ -1466,8 +1461,7 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 1549px) {
   .engagement-1 .text-wrapper-2 {
-    padding-left: 8.333%;
-    padding-right: calc(8% + 16px);
+    padding: 1em;
   }
 }
 @media (max-width: 1250px) {
