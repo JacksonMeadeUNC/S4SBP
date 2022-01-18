@@ -2245,6 +2245,9 @@ scale: 1.1;
 }
 
 @media(min-width: 767px) {
+  .item:not(.empty) {
+    justify-content: center;
+  }
   .grid {
     transform: rotate(-45deg) translateX(25%);
   }
@@ -2297,7 +2300,6 @@ scale: 1.1;
 }
 
 .item:not(.empty) {
-  justify-content: center;
   align-items: center;
   display: flex;
   font-weight: bold;
