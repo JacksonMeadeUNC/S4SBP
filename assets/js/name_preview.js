@@ -11,6 +11,7 @@ Array.prototype.filter.call(people, person => {
             title.innerHTML = person.getAttribute("title-for");
             nomme.innerHTML = person.getAttribute("name-for");
             content.innerHTML = person.getAttribute("content-for");
+            content2.innerHTML = person.getAttribute("secondary-content-for");
         })
         person.addEventListener('mouseleave', e => {
             title.innerHTML = "Welcome!";
