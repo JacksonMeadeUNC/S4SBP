@@ -1416,7 +1416,7 @@ section.lazy-placeholder:after {
 }
 
 .engagement-1 .text-wrapper-2 {
-  width: 60%;
+  width: 100%;
   background: white;
   padding: 90px 1rem;
   pointer-events: all;
@@ -1426,6 +1426,7 @@ section.lazy-placeholder:after {
     padding-right: 8.333%;
     padding-left: calc(15% + 16px);
     height: 30vh;
+    width: 60%;
   }
 }
 @media (max-width: 1549px) {
