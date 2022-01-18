@@ -1,6 +1,6 @@
 var i = false;
 var c = document.getElementById("countdown2-2");
-window.sessionStorage.clear();
+window.sessionStorage.removeItem('petitioned');
 
 function cd() {
     c.classList.remove(i ? "open" : "closed");
