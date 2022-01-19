@@ -649,6 +649,8 @@ section.lazy-placeholder:after {
   position: absolute;
   mix-blend-mode: difference;
 }
+
+
 @media (min-width: 992px) {
   .nav-container .navbar {
     background: rgba(0, 17, 105, 0);
