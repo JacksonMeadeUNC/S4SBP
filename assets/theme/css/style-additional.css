@@ -1462,11 +1462,6 @@ section.lazy-placeholder:after {
     padding-right: calc(15% + 16px);
   }
 }
-@media (max-width: 1549px) {
-  .engagement-1 .text-wrapper-2 {
-    padding: 1em;
-  }
-}
 
 
 .engagement-1 .block-content {
