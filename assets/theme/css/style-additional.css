@@ -1421,10 +1421,14 @@ section.lazy-placeholder:after {
   padding: 90px 1rem;
   pointer-events: all;
 }
-@media (min-width: 1550px) {
+@media(min-width: 767px) {
   .engagement-1 .text-wrapper-2 {
     padding-right: 8.333%;
     padding-left: calc(15% + 16px);
+  }
+}
+@media (min-width: 1550px) {
+  .engagement-1 .text-wrapper-2 {
     height: 30vh;
     width: 60%;
   }
