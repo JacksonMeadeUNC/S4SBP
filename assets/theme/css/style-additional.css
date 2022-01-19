@@ -633,13 +633,17 @@ section.lazy-placeholder:after {
   .nav-container .nav-item {
     position: relative;
   }
+  #mobile-brand {
+    display: none;
+  }
 }
+
 .nav-container .navbar {
   min-height: 107px;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-direction: column;
-  flex-direction: column;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
   display: -webkit-flex;
   -webkit-align-items: center;
   position: absolute;
