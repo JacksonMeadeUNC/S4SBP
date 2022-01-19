@@ -2385,6 +2385,10 @@ scale: 1.1;
   }
 }
 
+.countdown-block {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 
 .countdown-block .mbr-section-subtitle {
   color: #767676;
