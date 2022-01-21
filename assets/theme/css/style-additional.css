@@ -2484,3 +2484,9 @@ scale: 1.1;
 .countdown-block H2 {
   color: #ffffff;
 }
+
+@media(max-width: 767px) {
+  .anon {
+    align-self: end;
+  }
+}
