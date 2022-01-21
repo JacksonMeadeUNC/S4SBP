@@ -2328,7 +2328,10 @@ scale: 1.1;
   
   .item > img {
     transform: rotate(0deg) translate(0, 15px) scale(2);
-    clip-path: circle(50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: transparent;
+    background: -webkit-linear-gradient(90deg, rgb(144, 191, 240) 0%, rgb(238, 238, 238) 100%);
+    background: linear-gradient(90deg, rgb(144, 191, 240) 0%, rgb(238, 238, 238) 100%);
   }
   .item:not(.empty):not(.spacer) {
     overflow: visible;
