@@ -2327,8 +2327,11 @@ scale: 1.1;
 @media(max-width: 767px) {
   
   .item > img {
-    transform: rotate(0deg) translate(0, 15px) scale(1.2);
+    transform: rotate(0deg) translate(0, 15px) scale(2);
 
+  }
+  .item:not(.empty):not(.spacer) {
+    overflow: visible;
   }
 
   .item.explainer {
@@ -2336,6 +2339,7 @@ scale: 1.1;
     grid-column: span 4;
     grid-row: auto / span 1;
     background: transparent;
+    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(238,238,238,0.30574236530549714) 29%, rgba(238,238,238,0) 100%);
     border-bottom: 1px solid #c1c1c1;
   }
 
