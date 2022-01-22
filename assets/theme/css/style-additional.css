@@ -2490,3 +2490,122 @@ scale: 1.1;
 .countdown-block H2 {
   color: #ffffff;
 }
+
+
+.endorsements-opening {
+  padding-top: 105px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.endorsements-opening .card-wrapper {
+  position: relative;
+  margin: 0.5rem;
+}
+.endorsements-opening .card-wrapper:hover img {
+  transform: scale(1.1);
+}
+@media (min-width: 767px) {
+  .endorsements-opening .row {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 1400px) {
+  .endorsements-opening .card-wrapper {
+    margin: 0rem;
+  }
+}
+.endorsements-opening .card {
+  height: fit-content;
+}
+.endorsements-opening .number {
+  border-top: 2px solid currentColor;
+  padding-top: 0.4rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  width: fit-content;
+}
+.endorsements-opening .text-wrap {
+  max-width: 400px;
+}
+.endorsements-opening .icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.5rem;
+  transition: 0.3s;
+  background: #c8a900;
+}
+.endorsements-opening .icon:hover {
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+.endorsements-opening .card-box {
+  background-color: #90bff0;
+  padding: 4rem 4rem 6rem 4rem;
+  width: 100%;
+}
+.endorsements-opening img {
+  width: 100%;
+  transition: 5s;
+  object-fit: cover;
+}
+.endorsements-opening .img-wrap {
+  max-height: 250px;
+  overflow: hidden;
+}
+.endorsements-opening .container {
+  max-width: 1500px;
+}
+.endorsements-opening .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.endorsements-opening .mbr-iconfont {
+  font-size: 1.3rem;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.endorsements-opening P {
+  color: #c1c1c1;
+}
+@media (max-width: 1200px) {
+  .endorsements-opening .img-wrap {
+    max-height: 230px;
+  }
+  .endorsements-opening .text-wrap {
+    padding: 0rem;
+  }
+}
+@media (max-width: 992px) {
+  .endorsements-opening .card-box {
+    margin: 0rem;
+    padding: 2rem 2rem 6rem 2rem;
+  }
+  .endorsements-opening .text-wrap {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .endorsements-opening .card-box {
+    padding: 2rem 1rem 5rem 1rem;
+  }
+  .endorsements-opening .number {
+    margin: auto;
+  }
+}
+.endorsements-opening .mbr-text {
+  color: #001169;
+}
+.endorsements-opening .card-text {
+  color: #ffffff;
+}
+.endorsements-opening H2 {
+  color: #001169;
+}
+.endorsements-opening H3 {
+  color: #001169;
+}
