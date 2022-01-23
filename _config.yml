@@ -16,3 +16,13 @@ google_analytics: G-QGB4MB5HNE
 plugins:
   - jekyll-seo-tag
 theme: S4SBP-theme
+seo:
+  name: Sam Robinson for UNC Student Body President
+  type: Organization
+  links:
+    - https://www.instagram.com/samrobinsonforunc/
+    - https://twitter.com/SamuelCRobinson/
+    - https://www.samforunc.com/uploads/Robinson%20Platform.pdf
+image:
+  path: ./assets/images/profile1.png
+  alt: Samuel C. Robinson
