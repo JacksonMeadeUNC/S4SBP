@@ -2772,19 +2772,19 @@ scale: 1.1;
   }
 }
 
-.cid-sWtVMYRZdw {
-  background-image: url("../../../assets/images/samrobinson-24-2000x1333.jpg");
+.platform-bg {
+  background-image: url("../../../assets/images/SamRobinson-24.jpg");
 }
-.cid-sWtVMYRZdw .row {
+.platform-bg .row {
   position: relative;
 }
-.cid-sWtVMYRZdw .container {
+.platform-bg .container {
   max-width: 1500px;
 }
-.cid-sWtVMYRZdw .container {
+.platform-bg .container {
   padding-right: 8rem !important;
 }
-.cid-sWtVMYRZdw h4 {
+.platform-bg h4 {
   position: absolute;
   transform: rotate(-270deg);
   transform-origin: bottom right;
@@ -2794,16 +2794,16 @@ scale: 1.1;
   right: 0rem;
   bottom: 25%;
 }
-.cid-sWtVMYRZdw .content-wrapper {
+.platform-bg .content-wrapper {
   max-width: 800px;
 }
 @media (min-width: 767px) {
-  .cid-sWtVMYRZdw .container {
+  .platform-bg .container {
     padding: 0 4rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-sWtVMYRZdw .container {
+  .platform-bg .container {
     padding-right: 4rem !important;
   }
 }
