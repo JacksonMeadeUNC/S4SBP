@@ -2771,3 +2771,39 @@ scale: 1.1;
     padding-right: 40px;
   }
 }
+
+.cid-sWtVMYRZdw {
+  background-image: url("../../../assets/images/samrobinson-24-2000x1333.jpg");
+}
+.cid-sWtVMYRZdw .row {
+  position: relative;
+}
+.cid-sWtVMYRZdw .container {
+  max-width: 1500px;
+}
+.cid-sWtVMYRZdw .container {
+  padding-right: 8rem !important;
+}
+.cid-sWtVMYRZdw h4 {
+  position: absolute;
+  transform: rotate(-270deg);
+  transform-origin: bottom right;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+  right: 0rem;
+  bottom: 25%;
+}
+.cid-sWtVMYRZdw .content-wrapper {
+  max-width: 800px;
+}
+@media (min-width: 767px) {
+  .cid-sWtVMYRZdw .container {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sWtVMYRZdw .container {
+    padding-right: 4rem !important;
+  }
+}
